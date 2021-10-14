@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#C18D8D"
+    android:layout_height="100dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/class_name_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="hello"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/subject_name_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="HI"
+            android:layout_below="@id/class_name_recyclerView"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
